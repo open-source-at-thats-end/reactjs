@@ -1,0 +1,212 @@
+/* body{
+  overflow: auto;
+}   */
+
+
+#carousel .slick-prev::before {
+    content: url("https://api.iconify.design/gridicons/chevron-left.svg?height=50px&width=50px&color=black");
+    opacity: 1 !important;
+    transition: all 0.2s; }
+  #carousel  .slick-next::before {
+    content: url("https://api.iconify.design/gridicons/chevron-right.svg?height=50px&width=50px&color=black");
+    opacity: 1 !important;
+    transition: all 0.2s; }  
+  
+  #carousel .slick-next {
+   position: absolute;
+    right: 25px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-weight: bold
+    } 
+  #carousel .slick-prev {
+      position: absolute;
+      left: -5px; 
+      font-size: 40px;
+      font-weight: bolder;
+      z-index: 90;
+      font-weight: bold
+  } 
+  
+  #slider .slick-prev::before {
+        content: url("https://api.iconify.design/gridicons/chevron-left.svg?height=50px&width=50px&color=black");
+        opacity: 1 !important;
+        transition: all 0.2s; 
+   }
+  #slider .slick-next::before {
+        content: url("https://api.iconify.design/gridicons/chevron-right.svg?height=50px&width=50px&color=black");
+        opacity: 1 !important; 
+        transition: all 0.2s;
+   }  
+      
+  #slider .slick-next {
+        position: absolute;
+        right: 25px; 
+        font-size: 40px;
+        font-weight: bolder;
+        font-weight: bold;
+       
+   } 
+      
+  #slider .slick-prev {
+          position: absolute;
+          left: -5px; 
+          font-size: 40px;
+          font-weight: bolder;
+          z-index: 90;
+          font-weight: bold;
+  } 
+  
+   
+  #pl-bar .slick-disabled {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+ /*   #slider:hover .slick-next  {
+    opacity: 0.7;
+    right: 10px;
+  } */
+  
+  #pl-bar .ls-card .test-block .slick-next::before {
+    content:"";
+    opacity: 1 !important;
+  }
+  
+  #pl-bar .ls-card .test-block .slick-prev::before {
+    content: "";
+    opacity: 1 !important;
+  }
+
+ .prop-font {
+    font-size: 20px;
+}
+
+.similar_homes_block .item > a > .test-block:hover .slick-active {
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1); 
+  transform: scale(1.1, 1.1);
+}
+
+#Similar_Sold_Listings .item > a > .test-block:hover .slick-active {
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1); 
+  transform: scale(1.1, 1.1);
+} 
+#similar_homes_block,#Similar_Sold_Listings  a:hover{
+  cursor: pointer;
+}
+
+#lessexp-result .lsx {
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* this is for when click on dealscore it joint to upper section to remove that*/
+.page-wrapper {
+  overflow:initial !important 
+}
+
+
+
+/* #page-footer .footer-wrapper {
+  padding-top:70px;
+} */
+
+/* .similar_homes_block .item > a:hover  {
+  -moz-transform: scale(1.1, 1.1);
+
+  -ms-transform: scale(1.1, 1.1);
+
+  -webkit-transform: scale(1.1, 1.1);
+
+  transform: scale(1.1, 1.1);
+
+}
+
+#Similar_Sold_Listings .item > a:hover  {
+  -moz-transform: scale(1.1, 1.1);
+
+  -ms-transform: scale(1.1, 1.1);
+
+  -webkit-transform: scale(1.1, 1.1);
+
+  transform: scale(1.1, 1.1);
+
+} */
+
+#getcashback-close .fa{
+  font-size: 20px;
+}
+
+#Chart .highcharts-container .highcharts-legend-item{
+ font-weight: bold;
+ font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+#Chart .highcharts-graph{
+  stroke-width: 2px;
+}
+
+.highcharts-series-group .highcharts-series-inactive{
+  opacity: 1 
+}
+#slider ul.slides li img {
+  width: 750px !important;
+  display: inline !important;
+  height: 550px !important;
+  min-height: 550px !important;
+}
+.whatsapp-button {
+  z-index: 3;
+}
+
+
+@media (max-width: 600px) {
+  #slider ul.slides li img {
+    min-height: 123px;
+  }
+}
+
+@media (max-width:768px) {
+  #slider ul.slides li img {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1024px) {
+  li.activeimg.flex-active-slide, #slider ul.slides li img, #slider li.flex-active-slide {
+    min-height: 123px !important;
+  }
+}
+
+#pinfo table tr td {
+  font-size: 15px !important;
+}
+ 
+#pinfo table tr th {
+  font-size: 15px !important;
+}
+#pinfo .p_caption >div  {
+  font-size: 15px !important;
+}
+
+ #pfeatures table tr td {
+  font-size: 15px !important;
+} 
+#pfeatures table tr th {
+  font-size: 15px !important;
+}
+
+#page-footer .footer-wrapper {
+  margin-top: 184px !important;
+}
+
+@media (max-width: 1024px) {
+  #pfeatures table tr td {
+    font-size: 14px !important;
+  }
+}

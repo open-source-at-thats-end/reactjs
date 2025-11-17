@@ -1,0 +1,66 @@
+.mort-color {
+    height: 15px;
+    border-radius: 10px 10px 0 0px;
+    opacity: unset !important;
+}
+.bar-1 {
+    height: 120px;
+    background-color: #f4f4f4;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-top: 8px;
+    text-align: center;
+}
+.mort-val {
+    padding-top: 5px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.mort-title {
+    padding: 10px !important;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+b, strong {
+    font-weight: 900;
+}
+#monthly_payment {
+    font-weight: bold;
+    font-size: 16px;
+    color: #c69b2d;
+}
+#frmCalculator .form-group {
+    position: relative;
+}
+#frmCalculator label {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.form-control {
+    border-radius: 20px;
+}
+/* #frmCalculator .form-control {
+    border-radius: 23px 23px 23px 23px;
+    padding: 6px 12px;
+    height: 42px;
+    font-size: 14px;
+}
+
+#down_payment {
+    border-radius: 23px 0 0 23px !important;
+} */
+/* #frmCalculator .form-control {
+    border-radius: 23px 23px 23px 23px;
+    padding: 6px 12px;
+    height: 42px;
+    font-size: 14px;
+}
+#down_payment_percent {
+    border-radius: 0 23px 23px 0 !important;
+}
+#frmCalculator .form-control {
+    border-radius: 23px 23px 23px 23px;
+    padding: 6px 12px;
+    height: 42px;
+    font-size: 14px;
+} */

@@ -1,0 +1,32 @@
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore dependencies folder (installed in the container)
+node_modules
+
+# Ignore Next.js build files
+.next
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore logs and environment files
+*.log
+logs/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore editor-specific and temporary files
+*.swp
+*.swo
+.idea
+.vscode
+.DS_Store
+
+# Optional: Ignore README.md if not needed in the container
+README.md
